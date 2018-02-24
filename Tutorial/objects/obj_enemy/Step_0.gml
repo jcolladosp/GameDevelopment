@@ -6,5 +6,9 @@ if (instance_exists(obj_player)){
 
 image_angle = direction;
 
-if(hp <= 0) instance_destroy();
+if(hp <= 0){
+	with(obj_score) score +=5;
+	audio_play_sound(snd_death,0,0)
+	instance_destroy();
 
+}
