@@ -210,6 +210,25 @@
             }
         },
         {
+            "Key": "568abb19-b426-4b13-a441-5902b5de163d",
+            "Value": {
+                "id": "bbce7a74-798a-436b-89bd-ae2f4c12637b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_spawner\/obj_spawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "58919420-b1f5-452d-bc1f-22464c9a4fac",
             "Value": {
                 "id": "c61f170b-2191-4afb-9010-a4b73a155180",
@@ -606,6 +625,25 @@
                 ],
                 "resourcePath": "views\/d360f52a-42a4-43f5-8434-b29fcd6eaf48.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d41bccb6-2a3e-4da4-a1ea-3e9ab44a4c31",
+            "Value": {
+                "id": "7bd1d0b4-0678-4d42-b985-0ac7e2cc6de1",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_enemyspawn\/obj_enemyspawn.yy",
+                "resourceType": "GMObject"
             }
         },
         {

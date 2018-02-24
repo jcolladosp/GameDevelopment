@@ -40,3 +40,8 @@ Get camera position.
 `audio_play_sound(snd_death,0,0)` → Play sound.
 
 `room_goto(rm_game)` → Start a new room, close the current one.
+
+
+
+image_xscale = 0.1;
+image_xscale = 0.1;

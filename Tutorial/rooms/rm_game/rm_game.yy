@@ -8,10 +8,8 @@
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
         "1b459242-e9f1-4cb3-aa76-925a68757e66",
-        "01856d4d-6f4a-4c9a-a37b-c02eb5f73d53",
-        "272c899c-0da7-4231-b82c-2ab1274c4ab8",
-        "65a79615-9f91-4462-a24b-518e6b1b5c23",
-        "0b65cda7-fade-497e-9113-0efb60b55218"
+        "0b65cda7-fade-497e-9113-0efb60b55218",
+        "27b7bb09-45be-4a03-a0ae-5db93a3a1a8c"
     ],
     "IsDnD": false,
     "layers": [
@@ -44,8 +42,8 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "BulletsLayer",
-            "id": "fc385847-3c4b-4b84-ac3b-19cded8f1597",
+            "name": "EnemyLayer",
+            "id": "b84001b8-e0ba-4175-9059-96c7dec90da8",
             "depth": 100,
             "grid_x": 32,
             "grid_y": 32,
@@ -56,9 +54,33 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_7297A864","id": "01856d4d-6f4a-4c9a-a37b-c02eb5f73d53","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_7297A864","objId": "6c05fb18-66b8-4418-995a-7f799bf832d1","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 928,"y": 640},
-{"name": "inst_7ECBFF44","id": "272c899c-0da7-4231-b82c-2ab1274c4ab8","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_7ECBFF44","objId": "6c05fb18-66b8-4418-995a-7f799bf832d1","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 864,"y": 64},
-{"name": "inst_26A2906C","id": "65a79615-9f91-4462-a24b-518e6b1b5c23","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_26A2906C","objId": "6c05fb18-66b8-4418-995a-7f799bf832d1","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 96,"y": 96}
+
+            ],
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRInstanceLayer",
+            "mvc": "1.0",
+            "userdefined_depth": false,
+            "visible": true
+        },
+        {
+            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "BulletsLayer",
+            "id": "fc385847-3c4b-4b84-ac3b-19cded8f1597",
+            "depth": 200,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "instances": [
+{"name": "inst_401579C6","id": "27b7bb09-45be-4a03-a0ae-5db93a3a1a8c","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_401579C6","objId": "568abb19-b426-4b13-a441-5902b5de163d","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 704,"y": 576}
             ],
             "layers": [
 
@@ -74,7 +96,7 @@
             "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Layer_Background",
             "id": "88e3dae4-9dcd-462c-8061-d7007375f268",
-            "depth": 200,
+            "depth": 300,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -118,7 +140,7 @@
             "animationFPS": 15,
             "animationSpeedType": "0",
             "colour": { "Value": 4278190080 },
-            "depth": 300,
+            "depth": 400,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
