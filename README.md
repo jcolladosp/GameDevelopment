@@ -15,15 +15,19 @@
   `random_range(4,-4)` → Generate random within the range.
 
   `speed = 16` → Set speed of the object.
+ `instance_create_layer(x,y,"BulletsLayer",obj_bullet)` → Create instace of object
+
+spawnrate = 60;
+alarm[0] = spawnrate;
 
 
 
 Get camera position.
 
 ```
-  var cx = camera_get_view_x(view_camera[0])
-  var cy = camera_get_view_y(view_camera[0])
-  var cw = camera_get_view_width(view_camera[0])
+var cx = camera_get_view_x(view_camera[0])
+var cy = camera_get_view_y(view_camera[0])
+var cw = camera_get_view_width(view_camera[0])
 ```
 `draw_set_font(fnt_score)` → Set font to a text
 `draw_set_color(c_white)` → Set color to a text
