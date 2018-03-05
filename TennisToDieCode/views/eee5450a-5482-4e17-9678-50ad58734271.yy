@@ -6,8 +6,15 @@
     "children": [
         "4a04cda2-c27a-4023-b998-643600ed7c83",
         "29565543-aa5f-494d-85ad-0821099bb516",
+        "694ccb11-2364-4fcd-97ff-d7cbcee7c141",
+        "ecfca048-d937-4647-b40d-d1b850cf8e10",
+        "db752ff8-1800-4f11-82c3-a698868cde91",
+        "0343f08a-e515-4be2-b166-766131dee97a",
+        "d3bcf0c4-c662-42b4-8929-ce47f2c628de",
         "45b51001-7a3d-4b0e-a4e0-e5ae4423e0d8",
-        "694ccb11-2364-4fcd-97ff-d7cbcee7c141"
+        "7ca851f7-7fed-4217-8a2f-92b33c5d2872",
+        "8c9a79c2-0a81-4e07-8cf6-75f8f8dfcc13",
+        "4633819f-413b-4557-95bc-6fbbce0c9bad"
     ],
     "filterType": "GMObject",
     "folderName": "objects",
