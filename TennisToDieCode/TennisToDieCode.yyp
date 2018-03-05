@@ -153,6 +153,25 @@
             }
         },
         {
+            "Key": "28c1950d-f928-49c4-a8f8-e4ca4085d949",
+            "Value": {
+                "id": "05f77866-6ac8-406b-819c-063701358dff",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/rm_end\/rm_end.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "29565543-aa5f-494d-85ad-0821099bb516",
             "Value": {
                 "id": "c5cf0b24-63c0-451e-879a-089a018c80ae",
@@ -362,6 +381,25 @@
             }
         },
         {
+            "Key": "73512ea1-0d2e-4bc7-a157-42008d3de296",
+            "Value": {
+                "id": "f2902caa-4bf7-48c8-a42a-4cde169dc7ad",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_score\/obj_score.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "763e9cf1-ea1e-4402-ad3e-781ddc17b445",
             "Value": {
                 "id": "6199602b-cc38-4446-bd61-333122f52a00",
@@ -419,25 +457,6 @@
             }
         },
         {
-            "Key": "83e63f5e-b938-4a9b-aa65-282289ae8987",
-            "Value": {
-                "id": "8778ee2e-1936-42e7-9c44-38aa461d5a8f",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "rooms\/rm_end\/rm_end.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "8c2ce19e-c46b-4f4a-908a-cc0cbb39cef7",
             "Value": {
                 "id": "507f732e-2326-4f4c-9849-09f89224c5bc",
@@ -473,6 +492,25 @@
                 ],
                 "resourcePath": "objects\/obj_racquet\/obj_racquet.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9af262cc-5b08-4f28-a25b-1e8edb4d5c2e",
+            "Value": {
+                "id": "f85d6bcd-4194-4fbf-b7c2-dff875a427fa",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "fonts\/fnt_score\/fnt_score.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -796,6 +834,25 @@
                 ],
                 "resourcePath": "views\/eee5450a-5482-4e17-9678-50ad58734271.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f0b1c985-8cb7-43f2-b1c5-34bb070a3db4",
+            "Value": {
+                "id": "31094035-cebe-4ff4-a214-d6a93ab290ee",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_die\/obj_die.yy",
+                "resourceType": "GMObject"
             }
         },
         {

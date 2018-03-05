@@ -1,2 +1,2 @@
-spawnrate = 100;
-alarm[0] = spawnrate;
+
+alarm[0] = global.dropRateBomb;

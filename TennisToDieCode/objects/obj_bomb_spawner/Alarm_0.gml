@@ -1,2 +1,2 @@
-instance_create_layer(random_range(10,1000),0,"BombsAndBalls",obj_bomb);
-alarm[0] = spawnrate;
+instance_create_layer(obj_player.x,0,"BombsAndBalls",obj_bomb);
+alarm[0] =  global.dropRateBomb;
