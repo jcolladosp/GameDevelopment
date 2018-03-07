@@ -1,3 +1,5 @@
+//Jose Collado
+
 net = false;
 scored = false;
 gravity = random_range(0.3,0.6);
