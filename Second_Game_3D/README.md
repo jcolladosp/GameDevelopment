@@ -37,3 +37,14 @@ if (Input.GetButtonDown ("Jump") && Mathf.Abs (rigidbody.velocity.y) < 0.01f) {
 - OnCollisionEnter()
 - OnCollisionStay()
 - OnCollisionExit()
+
+#### Triggers
+
+- OnTriggerEnter
+- OnTriggerStay
+- OnTriggerExit
+
+#### Messages
+
+- SendMessage -> ejecuta un metodo en un gameobject concreto
+- BroadcastMessage ->

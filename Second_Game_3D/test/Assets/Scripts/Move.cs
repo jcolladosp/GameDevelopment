@@ -7,6 +7,7 @@ public class Move : MonoBehaviour {
 	public float jumpValue;
 	private AudioSource audio;
 	private Rigidbody rigidbody;
+	private int life = 100;
 	// Use this for initialization
 	void Start () {
 		rigidbody = GetComponent<Rigidbody> ();
@@ -32,7 +33,11 @@ public class Move : MonoBehaviour {
 	void OnCollisionEnter(Collision collision){
 		if(collision.gameObject.tag == "Enemigo") {
 			print ("colision");
-			Destroy (collision.gameObject);
+			life -= 10;
+			if (life == 0) {
+				//Destroy (gameObject);
+			}
+			//Destroy (collision.gameObject);
 		}
 	}
 
