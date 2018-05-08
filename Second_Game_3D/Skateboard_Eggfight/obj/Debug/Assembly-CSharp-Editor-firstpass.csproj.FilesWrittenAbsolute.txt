@@ -47,3 +47,5 @@
 /Users/jcolladosp/projects/GameDevelopment/Second_Game_3D/Skateboard_Eggfight/Temp/bin/Debug/Unity.Cecil.Mdb.dll
 /Users/jcolladosp/projects/GameDevelopment/Second_Game_3D/Skateboard_Eggfight/Temp/bin/Debug/UnityEditor.iOS.Extensions.Xcode.dll
 /Users/jcolladosp/projects/GameDevelopment/Second_Game_3D/Skateboard_Eggfight/Temp/bin/Debug/UnityEditor.iOS.Extensions.Xcode.xml
+/Users/jcolladosp/projects/GameDevelopment/Second_Game_3D/Skateboard_Eggfight/Temp/bin/Debug/TextMeshPro-2017.3-Runtime.dll
+/Users/jcolladosp/projects/GameDevelopment/Second_Game_3D/Skateboard_Eggfight/Temp/bin/Debug/TextMeshPro-2017.3-Editor.dll

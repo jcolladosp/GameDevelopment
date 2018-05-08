@@ -131,6 +131,18 @@ namespace UnityStandardAssets.Characters.FirstPerson
             UpdateCameraPosition(speed);
 
             m_MouseLook.UpdateCursorLock();
+
+
+			if (Input.GetKeyDown (KeyCode.W))
+			{
+				m_AudioSource.PlayOneShot(m_AudioSource.clip);
+
+			}
+			if (Input.GetKeyUp (KeyCode.W))
+			{
+				m_AudioSource.Stop();
+			}
+
         }
 
 
@@ -168,12 +180,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
             // pick & play a random footstep sound from the array,
             // excluding sound at index 0
-            int n = Random.Range(1, m_FootstepSounds.Length);
-            m_AudioSource.clip = m_FootstepSounds[n];
-            m_AudioSource.PlayOneShot(m_AudioSource.clip);
-            // move picked sound to index 0 so it's not picked next time
-            m_FootstepSounds[n] = m_FootstepSounds[0];
-            m_FootstepSounds[0] = m_AudioSource.clip;
+			m_AudioSource.clip = m_FootstepSounds[0];
+
         }
 
 
