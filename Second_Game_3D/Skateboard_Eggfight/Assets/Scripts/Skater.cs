@@ -17,6 +17,7 @@ public class Skater : MonoBehaviour {
 		{
 			hasEgg = true;
 			egg.GetComponent<MeshRenderer> ().enabled = true;
+			RemainingEggs.removeEgg ();
 
 		}
 		if (Input.GetKey (KeyCode.Mouse0) && hasEgg) {
@@ -34,4 +35,12 @@ public class Skater : MonoBehaviour {
 	void OnTriggerExit(Collider other){
 		isInsideTable = false;
 	}
+
+	void OnCollisionEnter(Collision collision){
+		if(collision.gameObject.CompareTag("enemy")) {
+			print ("colision");
+
+		}
+	}
+
 }

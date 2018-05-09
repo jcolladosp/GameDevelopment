@@ -84,7 +84,13 @@
      <Compile Include="Assets\Materials\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
      <Compile Include="Assets\Materials\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
      <Compile Include="Assets\Materials\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+     <Compile Include="Assets\Scripts\AngrySkaters.cs" />
+     <Compile Include="Assets\Scripts\EggEnemy.cs" />
      <Compile Include="Assets\Scripts\EggImpulse.cs" />
+     <Compile Include="Assets\Scripts\EnemyPoints.cs" />
+     <Compile Include="Assets\Scripts\NPC.cs" />
+     <Compile Include="Assets\Scripts\Points.cs" />
+     <Compile Include="Assets\Scripts\RemainingEggs.cs" />
      <Compile Include="Assets\Scripts\Skater.cs" />
      <None Include="Assets\Materials\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\Materials\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />

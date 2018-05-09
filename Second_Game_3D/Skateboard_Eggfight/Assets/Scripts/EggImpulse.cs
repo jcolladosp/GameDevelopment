@@ -3,17 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EggImpulse : MonoBehaviour {
-	public float impulseForce = 15.0f;
-	public float impulseForceUp = 3.0f;
+	public float impulseForce = 25.0f;
 
 
 	private GameObject eggHand;
 
+
 	// Use this for initialization
 	void Start () {
 		eggHand = GameObject.Find("eggHand");
-		GetComponent<Rigidbody> ().AddRelativeForce ((-eggHand.transform.forward) * impulseForce, ForceMode.Impulse);
-		GetComponent<Rigidbody> ().AddRelativeForce ((eggHand.transform.up) * impulseForceUp, ForceMode.Impulse);
+		GetComponent<Rigidbody> ().AddRelativeForce ((-eggHand.transform.forward + new Vector3(0,0.3f,0)) * impulseForce, ForceMode.Impulse);
 
 	}
 
@@ -23,4 +22,13 @@ public class EggImpulse : MonoBehaviour {
 			Destroy (gameObject);
 		}
 	}
+
+
+	void OnCollisionEnter(Collision collision){
+		if(collision.gameObject.tag == "enemy") {
+			Points.addOnePoint ();
+
+		}
+	}
+
 }
