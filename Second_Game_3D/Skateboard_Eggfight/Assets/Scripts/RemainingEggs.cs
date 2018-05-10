@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class RemainingEggs : MonoBehaviour {
 	public static TextMeshPro text;
@@ -21,6 +22,11 @@ public class RemainingEggs : MonoBehaviour {
 		eggs -= 1;
 		text.text = "Remaining eggs: " + eggs;
 
+		if (eggs < 0) {
+			Skater.endGame = "noEggs";
+			SceneManager.LoadScene("EndScene");
+
+		}
 	
 	}
 }

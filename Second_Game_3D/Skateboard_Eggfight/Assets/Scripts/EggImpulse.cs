@@ -27,6 +27,12 @@ public class EggImpulse : MonoBehaviour {
 	void OnCollisionEnter(Collision collision){
 		if(collision.gameObject.tag == "enemy") {
 			Points.addOnePoint ();
+			Destroy (gameObject);
+
+		}
+		if(collision.gameObject.tag == "people") {
+			AngrySkaters.addOnePoint ();
+			Destroy (gameObject);
 
 		}
 	}

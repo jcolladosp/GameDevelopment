@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class NPC : MonoBehaviour {
 
@@ -11,6 +12,7 @@ public class NPC : MonoBehaviour {
 	private float timer;
 	public GameObject egg;
 	public GameObject avatar;
+	public static float spawnTime = 6.0f;
 
 	// Use this for initialization
 	void OnEnable () {
@@ -19,7 +21,7 @@ public class NPC : MonoBehaviour {
 
 	}
 	void Start () {
-		InvokeRepeating("ThrowEggs", 0, 2.0f);
+		InvokeRepeating("ThrowEggs", 0, spawnTime);
 		avatar = GameObject.Find("avatar");
 
 	}
@@ -54,6 +56,13 @@ public class NPC : MonoBehaviour {
 		Instantiate (egg, avatar.transform.position + new Vector3(0,3,0), Quaternion.identity);
 
 
+	}
+	void OnCollisionEnter(Collision collision){
+		if(collision.gameObject.CompareTag("Player")) {
+			Skater.endGame = "collision";
+			SceneManager.LoadScene("EndScene");
+
+		}
 	}
 
 

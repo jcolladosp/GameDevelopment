@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Skater : MonoBehaviour {
 	private bool isInsideTable = false;
 	private bool hasEgg = false;
+	public static string endGame = "";
 	public GameObject egg;
 	public GameObject eggInstancy;
 	// Use this for initialization
@@ -38,7 +40,8 @@ public class Skater : MonoBehaviour {
 
 	void OnCollisionEnter(Collision collision){
 		if(collision.gameObject.CompareTag("enemy")) {
-			print ("colision");
+			endGame = "collision";
+			SceneManager.LoadScene("EndScene");
 
 		}
 	}

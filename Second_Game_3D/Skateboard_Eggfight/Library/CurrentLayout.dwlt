@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -42,10 +42,10 @@ MonoBehaviour:
     y: 30
     width: 1680
     height: 876
-  m_MinSize: {x: 683, y: 492}
-  m_MaxSize: {x: 14004, y: 14042}
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 26
+  controlID: 49
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -90,8 +90,8 @@ MonoBehaviour:
     y: 0
     width: 305
     height: 599
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -207,10 +207,10 @@ MonoBehaviour:
     y: 0
     width: 1238
     height: 876
-  m_MinSize: {x: 406, y: 492}
+  m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 27
+  controlID: 50
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -231,10 +231,10 @@ MonoBehaviour:
     y: 0
     width: 1238
     height: 599
-  m_MinSize: {x: 406, y: 221}
-  m_MaxSize: {x: 8006, y: 4021}
+  m_MinSize: {x: 404, y: 221}
+  m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 28
+  controlID: 51
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -255,13 +255,13 @@ MonoBehaviour:
     height: 599
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 17}
   - {fileID: 18}
   - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -355,19 +355,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/jcolladosp/projects/GameDevelopment/Second_Game_3D/Skateboard_Eggfight
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 833}
-    m_SelectedIDs: e82e0000
-    m_LastClickedID: 12008
-    m_ExpandedIDs: 0000000052290000622900006a290000c82900002e2a0000462a00007e2a0000ae2a0000762b0000a62b0000022c0000302c0000462c0000502d0000662d0000a62d0000c02d0000302e00007a2e00007c2f00005e300000603000008e300000d0300000fc3000009439000096390000983900009a3900009c3900009e390000a0390000a2390000a4390000a6390000a8390000aa390000ac390000ae390000b0390000b2390000b4390000b6390000b8390000ba390000bc390000be39000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 849}
+    m_SelectedIDs: ea290000
+    m_LastClickedID: 10730
+    m_ExpandedIDs: 000000004e2900005e29000066290000c4290000ea2900002a2a0000422a00007c2a0000ac2a0000742b0000a42b0000002c00002e2c0000442c00004e2d0000642d0000a42d0000be2d00002e2e0000782e00007a2f00005c3000005e3000008c300000ce300000fa300000bc320000be320000c0320000c2320000c4320000c6320000c8320000ca320000cc320000ce320000d0320000d2320000d4320000d6320000d8320000da320000dc320000de320000e0320000e2320000e4320000e632000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -395,7 +395,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000052290000622900006a290000c82900002e2a0000462a00007e2a0000ae2a0000762b0000a62b0000022c0000302c0000462c0000502d0000662d0000a62d0000c02d0000302e00007a2e00007c2f00005e300000603000008e300000d0300000fc3000009439000096390000983900009a3900009c3900009e390000a0390000a2390000a4390000a6390000a8390000aa390000ac390000ae390000b0390000b2390000b4390000b6390000b8390000ba390000bc390000be390000
+    m_ExpandedIDs: 000000004e2900005e29000066290000c4290000ea2900002a2a0000422a00007c2a0000ac2a0000742b0000a42b0000002c00002e2c0000442c00004e2d0000642d0000a42d0000be2d00002e2e0000782e00007a2f00005c3000005e3000008c300000ce300000fa300000bc320000be320000c0320000c2320000c4320000c6320000c8320000ca320000cc320000ce320000d0320000d2320000d4320000d6320000d8320000da320000dc320000de320000e0320000e2320000e4320000e6320000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -513,28 +513,27 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 1c340000
-    m_LastClickedID: 13340
-    m_ExpandedIDs: 86fbffff000000001c340000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 2670ffff2878ffffecd2ffff66d8ffff76dbffffacf3ffff7ef6ffff9efbffff000000006c32000004330000703c000056590000f4590000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Canvas
+      m_OriginalName: Canvas
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 22870
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
-  m_ExpandedScenes:
-  - SkateParkMain
+  m_ExpandedScenes: []
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -560,20 +559,20 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 2
-    y: 19
+    x: 307
+    y: 93
     width: 929
     height: 578
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 5604.717399954796
+  lastFramingTime: 67.23597705364227
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 33.85306, y: 2.387403, z: 8.524107}
+    m_Target: {x: 464.5, y: 381.8, z: 0}
     speed: 2
-    m_Value: {x: 33.85306, y: 2.387403, z: 8.524107}
+    m_Value: {x: 464.5, y: 381.8, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -597,13 +596,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.05064896, y: 0.79608244, z: -0.06727495, w: 0.599304}
+    m_Target: {x: -0.013190325, y: -0.0045047984, z: -0.000056248722, w: 0.9999054}
     speed: 2
-    m_Value: {x: 0.05064896, y: 0.7960825, z: -0.06727495, w: 0.599304}
+    m_Value: {x: 0.013190325, y: 0.0045047984, z: 0.000056248722, w: -0.99990535}
   m_Size:
-    m_Target: 10.404064
+    m_Target: 268.60056
     speed: 2
-    m_Value: 10.404064
+    m_Value: 268.60056
   m_Ortho:
     m_Target: 0
     speed: 2
